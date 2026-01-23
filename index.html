@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mural da Turma</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .descricao {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .lista-alunos {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Container de cada item da lista */
+        .aluno-item {
+            background: #fff;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .aluno-item:hover {
+            transform: scale(1.02);
+        }
+
+        /* Estilização da imagem */
+        .aluno-foto {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 2px solid #3498db;
+        }
+
+        /* Estilização do link */
+        .aluno-link {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .aluno-link:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mural de Links da Turma</h1>
+    <p class="descricao">Cada aluno deve editar o código abaixo para incluir seu nome, link e foto.</p>
+
+    <ul class="lista-alunos">
+        
+        <li class="aluno-item">
+            <img src="https://via.placeholder.com/60" alt="Foto do Aluno" class="aluno-foto">
+            <a href="#" target="_blank" class="aluno-link">Nome do Aluno 1 - Ver Perfil</a>
+        </li>
+        </ul>
+
+</body>
+</html>
